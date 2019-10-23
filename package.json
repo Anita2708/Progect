@@ -1,0 +1,22 @@
+{
+  "name": "progect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anita2708/Progect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anita2708/Progect/issues"
+  },
+  "homepage": "https://github.com/Anita2708/Progect#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

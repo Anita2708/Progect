@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Allosaurus</title>
+  </head>
+  <body>
+    <div class="overlay" id="modal">
+      <div class="modal-window">
+        <span id="btn--close">&times;</span>
+        <span>&mdash;&mdash;Or&mdash;&mdash;</span>
+        <input type="email" name="Email" id="email" placeholder="Email" />
+        <div id="error-email" class="error"></div>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+        <div id="error-password" class="error"></div>
+        <a
+          id="btn--sign-in"
+          href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna"
+          >SIGN IN</a
+        >
+        <div class="modal__footer">
+          <span> <a href="#">Forgot password?</a></span>
+          <span>Don't have an account?<a href="#"> Get started</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <button id="btn--sign">Sign in</button>
+    </div>
+    <div class="container">
+      <div class="article">
+        <h2 class="article__title">Allosaurus</h2>
+        <p>
+          Allosaurus is a genus of carnivorous theropod dinosaur that lived 155
+          to 145 million years ago during the late Jurassic period (Kimmeridgian
+          to late Tithonian). The name "Allosaurus" means "different lizard"
+          alluding to its unique concave vertebrae (at the time of its
+          discovery). It is derived from the Greek ἄλλος/allos ("different,
+          other") and σαῦρος/sauros ("lizard / generic reptile"). The first
+          fossil remains that could definitively be ascribed to this genus were
+          described in 1877 by paleontologist Othniel Charles Marsh. As one of
+          the first well-known theropod dinosaurs, it has long attracted
+          attention outside of paleontological circles.
+        </p>
+        <p class="article--green">
+          Tooth marks on <em>Allosaurus</em> bones reveal that these dinosaurs
+          sometimes ate each other.
+        </p>
+      </div>
+      <img
+        class="image--all"
+        src="allosaurus.png"
+        alt="Allosaurus"
+        width="800px"
+      />
+      <div class="article-2">
+        <div class="article--sub">
+          <h2 class="article__title article__title--blue">! Open wide</h2>
+          <p>
+            “Swift ambush predators such as Allosaurus had the largest jaw gape
+            among the studied dinosaur species, which is consistent with the
+            requirement for a predator hunting larger prey,” said paleontologist
+            Stephan Lautenschlager of Britain’s University of Bristol.
+          </p>
+        </div>
+        <img
+          class="image-jaw"
+          src="jaw.jpg"
+          alt="jaw of Allosaurus"
+          width="auto"
+        />
+      </div>
+    </div>
+    <script src="page.js"></script>
+  </body>
+</html>
