@@ -12,6 +12,10 @@ btnModal.addEventListener("click", openModal);
 btnClose.addEventListener("click", closeModal);
 
 function openModal() {
+  userEmail.value = "";
+  userPassword.value = "";
+  errorPassword.textContent = "";
+  errorEmail.textContent = "";
   modal.style.display = "block";
 }
 
